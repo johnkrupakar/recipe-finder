@@ -1,0 +1,40 @@
+.header {
+  text-align: center;
+}
+
+.mealHeading {
+  color: #334444;
+  font-size: large;
+}
+
+.search {
+  padding: 7px;
+  margin: 12px;
+}
+
+.search input[type="text"] {
+  font-size: medium;
+  background-color: transparent;
+  color: black;
+  border: 2px solid grey;
+  width: 350px;
+  top: 3px;
+}
+
+.search input[type="text"]:focus {
+  outline: none;
+}
+
+.search input[type="submit"] {
+  font-size: 2rem;
+  cursor: pointer;
+  margin-left: 25px;
+  border: 0px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+}
+
+.dishText {
+  text-align: center;
+}

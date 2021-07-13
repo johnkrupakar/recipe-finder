@@ -1,0 +1,41 @@
+.recipeInformation {
+  margin: 30px 5px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+.recipeTitle {
+  text-align: center;
+  margin: 7px 0px;
+  padding: 12px;
+  color: white;
+  background-color: black;
+}
+
+.recipeInformation img {
+  border: 400px;
+  border: 3px solid black;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+.nullData {
+  text-align: center;
+}
+
+.ingredients {
+  list-style-type: none;
+  padding: 5px 32px;
+  overflow: auto;
+  background-color: lightyellow;
+  margin: 3px 2px 12px;
+  height: 210px;
+}
+
+.reciepe {
+  background-color: blue;
+  padding: 10px 20px;
+  overflow: auto;
+}
